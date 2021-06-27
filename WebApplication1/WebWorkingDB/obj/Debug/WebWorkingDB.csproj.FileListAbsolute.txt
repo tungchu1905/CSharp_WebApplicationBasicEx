@@ -1,0 +1,7 @@
+D:\C_Sharp_Webform\Class\WebApplication1\WebWorkingDB\bin\WebWorkingDB.dll.config
+D:\C_Sharp_Webform\Class\WebApplication1\WebWorkingDB\bin\WebWorkingDB.dll
+D:\C_Sharp_Webform\Class\WebApplication1\WebWorkingDB\bin\WebWorkingDB.pdb
+D:\C_Sharp_Webform\Class\WebApplication1\WebWorkingDB\obj\Debug\WebWorkingDB.csprojAssemblyReference.cache
+D:\C_Sharp_Webform\Class\WebApplication1\WebWorkingDB\obj\Debug\WebWorkingDB.csproj.CoreCompileInputs.cache
+D:\C_Sharp_Webform\Class\WebApplication1\WebWorkingDB\obj\Debug\WebWorkingDB.dll
+D:\C_Sharp_Webform\Class\WebApplication1\WebWorkingDB\obj\Debug\WebWorkingDB.pdb

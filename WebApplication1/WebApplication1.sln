@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31313.79
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication1", "WebApplication1\WebApplication1.csproj", "{E1D8E035-54B7-4086-81B4-4A51E808AB93}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebWorkingDB", "WebWorkingDB\WebWorkingDB.csproj", "{EE8AC03B-ED32-47FF-90FA-77B9F27E6C66}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E1D8E035-54B7-4086-81B4-4A51E808AB93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1D8E035-54B7-4086-81B4-4A51E808AB93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1D8E035-54B7-4086-81B4-4A51E808AB93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1D8E035-54B7-4086-81B4-4A51E808AB93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE8AC03B-ED32-47FF-90FA-77B9F27E6C66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE8AC03B-ED32-47FF-90FA-77B9F27E6C66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE8AC03B-ED32-47FF-90FA-77B9F27E6C66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE8AC03B-ED32-47FF-90FA-77B9F27E6C66}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0E84FE91-FDFA-4F86-ADAB-6EB043209FF1}
+	EndGlobalSection
+EndGlobal
