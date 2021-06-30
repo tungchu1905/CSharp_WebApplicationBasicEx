@@ -51,6 +51,24 @@ namespace WebWorkingDB
         protected global::System.Web.UI.WebControls.TextBox txtPrice;
 
         /// <summary>
+        /// ddlDanhMuc control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.DropDownList ddlDanhMuc;
+
+        /// <summary>
+        /// cbconhang control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.CheckBox cbconhang;
+
+        /// <summary>
         /// Button1 control.
         /// </summary>
         /// <remarks>

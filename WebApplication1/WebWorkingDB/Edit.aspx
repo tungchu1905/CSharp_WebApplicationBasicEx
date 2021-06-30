@@ -18,6 +18,12 @@
             UnitPrice:
             <asp:TextBox ID="txtPrice" runat="server"></asp:TextBox>
             <br />
+            Danh muc&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <asp:DropDownList ID="ddlDanhMuc" runat="server">
+            </asp:DropDownList>
+            <br />
+            Con hang: <asp:CheckBox ID="cbconhang" runat="server" />
+            <br />
             <asp:Button ID="Button1" runat="server" Height="42px" OnClick="Button1_Click" Text="Edit" Width="110px" />
             <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
         </div>

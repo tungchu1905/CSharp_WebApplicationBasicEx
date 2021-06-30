@@ -40,9 +40,13 @@ namespace WebWorkingDB.DAO
         {
             Database.Execute("delete from [Order Details] where ProductID ='" + id + "'");
         }
-        internal static void Edit(string name, string price, string id)
+        internal static void Edit(string name, string price,string ddlDanhmuc,string discontinued, string id)
         {
-            Database.Execute("update Products set ProductName = '"+name+"', UnitPrice = '"+price+"' where ProductID ='"+id+"'");
+            Database.Execute("update Products set ProductName = '"+name+ "', UnitPrice = '" + price + "', CategoryID = '" + ddlDanhmuc + "',discontinued = '" + discontinued + "'  where ProductID ='" + id + "'");
+        }
+        internal static void Edit(string name,string id)
+        {
+            Database.Execute("update Products set ProductName = '" + name + "'  where ProductID ='" + id + "'");
         }
         internal static DataTable getAllcategories()
         {
@@ -54,5 +58,11 @@ namespace WebWorkingDB.DAO
             return getDataSql("select ProductID ,ProductName, UnitPrice from Products where CategoryID = '"+id+"' ");
 
         }
+        internal static DataTable getProductById(string id)
+        {
+            return getDataSql("select * from Products where ProductID = '"+id+"' ");
+
+        }
+
     }
 }
