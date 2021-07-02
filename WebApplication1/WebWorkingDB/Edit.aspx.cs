@@ -56,7 +56,6 @@ namespace WebWorkingDB
         }
         protected void Button1_Click(object sender, EventArgs e)
         {
-            //Database.Edit(txtName.Text, lblId.Text);
             Database.Edit(txtName.Text, txtPrice.Text, ddlDanhMuc.SelectedValue.ToString(), check().ToString(), lblId.Text);
             Response.Redirect("Index.aspx");
 

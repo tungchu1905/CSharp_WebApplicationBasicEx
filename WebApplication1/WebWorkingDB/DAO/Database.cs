@@ -64,5 +64,9 @@ namespace WebWorkingDB.DAO
 
         }
 
+        internal static DataTable getOrderDetail(string pid)
+        {
+            return getDataSql("select * from Order Detail where ProductID = '"+pid+"'");
+        }
     }
 }

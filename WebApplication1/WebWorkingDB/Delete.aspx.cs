@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Web;
 using System.Web.UI;
@@ -12,9 +13,22 @@ namespace WebWorkingDB
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            Database.DeleteOrderDetail(Request.Params["pid"]);
+            
+           
+
+            DataTable da = Database.getOrderDetail(Request.Params["pid"]);
+            //if (da.Rows.Count > 0)
+            //{
+
+            //}
+            //else
+            //{
+            //Database.DeleteOrderDetail(Request.Params["pid"]);
             Database.DeleteProduct(Request.Params["pid"]);
+            //}
+
             Response.Redirect("Index.aspx");
+
         }
     }
 }

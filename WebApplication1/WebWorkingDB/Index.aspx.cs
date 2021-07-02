@@ -23,7 +23,7 @@ namespace WebWorkingDB
                 ddlCategory.DataBind();
                 //string[] url = { "ProductID" };
 
-                ddlCategory.Items.Insert(0, new ListItem("-- all --", "0"));
+                //ddlCategory.Items.Insert(0, new ListItem("-- all --", "0"));
                 //
                 //Label2.Text = ddlCategory.SelectedValue.ToString();
                 // Fill du lieu tu get all
